@@ -1,3 +1,5 @@
+![Banner Python](/img/Banner_Python.png)
+
 # Ejercicios de la clase 9 de Python Avanzado usando Map y Filter.
 ---
 ## Ejercicio 1
