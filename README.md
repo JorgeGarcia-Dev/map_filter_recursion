@@ -1,6 +1,6 @@
 ![Banner Python](/img/Banner_Python.png)
 
-# Ejercicios de la clase 9 de Python Avanzado usando Map y Filter.
+# Ejercicios de la clase 9 de Python Avanzado usando Map, Filter y Recursividad.
 ---
 ## Ejercicio 1
 
