@@ -9,4 +9,6 @@ def all_positive(numbers):
     return all(map(lambda x: x > 0, numbers))
 
 
-print(all_positive([1, 2, 3, 4, 5]))
+list_nums = [1, 2, 3, 4, 5]
+
+print(all_positive(list_nums))

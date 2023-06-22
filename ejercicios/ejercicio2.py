@@ -13,4 +13,6 @@ def filter_words(words):
     return list(filter(lambda x: len(x) > 5, words))
 
 
-print(filter_words(["Python", "Java", "C", "Scala", "Haskell"]))
+words_list = ["Python", "Java", "C", "Scala", "Haskell"]
+
+print(filter_words(words_list))
