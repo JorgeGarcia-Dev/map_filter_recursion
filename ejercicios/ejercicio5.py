@@ -9,18 +9,12 @@ la longitud de la secuencia que debe generar.
 
 
 def fibonacci(n):
-    if n <= 0:
-        return []
-    elif n == 1:
-        return [0]
-    elif n == 2:
-        return [0, 1]
+    if n <= 1:
+        return n
     else:
-        sequence = fibonacci(n - 1)
-        sequence.append(sequence[-1] + sequence[-2])
-        return sequence
+        return fibonacci(n - 1) + fibonacci(n - 2)
 
 
 n = 10
-fib_sequence = fibonacci(n)
+fib_sequence = list(map(fibonacci, range(n)))
 print(fib_sequence)
