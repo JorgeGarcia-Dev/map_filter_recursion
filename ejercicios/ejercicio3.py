@@ -16,5 +16,4 @@ def factorial(n):
 
 
 n = 5
-factorial_result = factorial(n)
-print(factorial_result)
+print(f"El factorial de {n} es: {factorial(n)}")
